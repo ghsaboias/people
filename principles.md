@@ -49,6 +49,8 @@
 
 **No consultants or advisors without equity stakes**
 
+**No new entity types** - Use existing: person, company, fund only
+
 ## Data Integrity
 
 **Verify through multiple sources**

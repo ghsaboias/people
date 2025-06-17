@@ -1,41 +1,76 @@
-#!/usr/bin/env node
+const fs = require("fs");
 
-const fs = require('fs');
-const path = require('path');
+// Read the graph data
+const graphData = JSON.parse(fs.readFileSync("data/graph.json", "utf8"));
 
-// Network Connection Analyzer
-function analyzeConnections(graphData) {
-    const connectionCounts = {};
-    
-    // Initialize all entities with 0 connections
-    for (const entityId in graphData.entities) {
-        connectionCounts[entityId] = {
-            name: graphData.entities[entityId].name,
-            type: graphData.entities[entityId].type,
-            totalConnections: 0,
-            inbound: 0,
-            outbound: 0,
-            connections: []
-        };
-    }
-    
-    // Count connections from relationships
-    graphData.relationships.forEach(relationship => {
-        const { from, to, type } = relationship;
-        
-        // Count outbound for 'from' entity
-        if (connectionCounts[from]) {
-            connectionCounts[from].totalConnections++;
-            connectionCounts[from].outbound++;
-            connectionCounts[from].connections.push({
-                direction: 'outbound',
-                target: to,
-                targetName: graphData.entities[to]?.name || to,
-                type: type
-            });
-        }
-        
-        // Count inbound for 'to' entity
-        if (connectionCounts[to]) {
-            connectionCounts[to].totalConnections++;
-            connectionCounts
+// Get all entity IDs
+const allEntityIds = Object.keys(graphData.entities);
+
+// Find all entities that appear in relationships
+const connectedEntities = new Set();
+
+graphData.relationships.forEach((rel) => {
+  connectedEntities.add(rel.from);
+  connectedEntities.add(rel.to);
+});
+
+// Find entities with 0 connections
+const entitiesWithZeroConnections = allEntityIds.filter(
+  (entityId) => !connectedEntities.has(entityId)
+);
+
+console.log("=== ENTITIES WITH 0 CONNECTIONS ===");
+console.log(`Total entities: ${allEntityIds.length}`);
+console.log(`Connected entities: ${connectedEntities.size}`);
+console.log(
+  `Entities with 0 connections: ${entitiesWithZeroConnections.length}`
+);
+console.log("");
+
+if (entitiesWithZeroConnections.length > 0) {
+  console.log("Entities with no connections:");
+  entitiesWithZeroConnections.forEach((entityId) => {
+    const entity = graphData.entities[entityId];
+    console.log(`- ${entityId}: ${entity.name} (${entity.type})`);
+  });
+} else {
+  console.log("All entities have at least one connection.");
+}
+
+console.log("");
+console.log("=== CONNECTION STATISTICS ===");
+
+// Count connections per entity
+const connectionCounts = {};
+allEntityIds.forEach((id) => (connectionCounts[id] = 0));
+
+graphData.relationships.forEach((rel) => {
+  connectionCounts[rel.from]++;
+  connectionCounts[rel.to]++;
+});
+
+// Sort by connection count
+const sortedByCounts = Object.entries(connectionCounts)
+  .filter(([id]) => graphData.entities[id]) // Filter out any undefined entities
+  .sort(([, a], [, b]) => b - a)
+  .map(([id, count]) => ({
+    id,
+    name: graphData.entities[id].name,
+    type: graphData.entities[id].type,
+    connections: count,
+  }));
+
+console.log("Top 10 most connected entities:");
+sortedByCounts.slice(0, 10).forEach((entity) => {
+  console.log(
+    `- ${entity.name} (${entity.type}): ${entity.connections} connections`
+  );
+});
+
+console.log("");
+console.log("Bottom 10 least connected entities:");
+sortedByCounts.slice(-10).forEach((entity) => {
+  console.log(
+    `- ${entity.name} (${entity.type}): ${entity.connections} connections`
+  );
+});
