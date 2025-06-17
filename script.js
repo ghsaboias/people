@@ -44,7 +44,30 @@ class NetworkGraph {
 
   loadData(data) {
     if (!data) return;
-    this.entities = data.entities || {};
+
+    // Convert new structure to internal entities format
+    this.entities = {};
+
+    // Add people
+    if (data.people) {
+      Object.keys(data.people).forEach((id) => {
+        this.entities[id] = {
+          ...data.people[id],
+          type: "person",
+        };
+      });
+    }
+
+    // Add companies
+    if (data.companies) {
+      Object.keys(data.companies).forEach((id) => {
+        this.entities[id] = {
+          ...data.companies[id],
+          type: "company",
+        };
+      });
+    }
+
     this.relationships = data.relationships || [];
     this.generateNodes();
     this.updateUI();
