@@ -21,7 +21,6 @@
     "chamath-palihapitiya": { "type": "person", "name": "Chamath Palihapitiya" },
     "sergey-brin": { "type": "person", "name": "Sergey Brin" },
     "larry-page": { "type": "person", "name": "Larry Page" },
-
     "amazon": { "type": "company", "name": "Amazon" },
     "nvidia": { "type": "company", "name": "NVIDIA" },
     "y-combinator": { "type": "fund", "name": "Y Combinator" },
@@ -30,14 +29,10 @@
     "jensen-huang": { "type": "person", "name": "Jensen Huang" },
     "satya-nadella": { "type": "person", "name": "Satya Nadella" },
     "mark-zuckerberg": { "type": "person", "name": "Mark Zuckerberg" },
-
     "dustin-moskovitz": { "type": "person", "name": "Dustin Moskovitz" },
-
-
     "meta": { "type": "company", "name": "Meta" },
     "whatsapp": { "type": "company", "name": "WhatsApp" },
     "bill-gates": { "type": "person", "name": "Bill Gates" },
-
     "jessica-livingston": { "type": "person", "name": "Jessica Livingston" },
     "sam-altman": { "type": "person", "name": "Sam Altman" },
     "openai": { "type": "company", "name": "OpenAI" },
@@ -57,9 +52,7 @@
     "reed-hastings": { "type": "person", "name": "Reed Hastings" },
     "airbnb": { "type": "company", "name": "Airbnb" },
     "brian-chesky": { "type": "person", "name": "Brian Chesky" },
-
     "uber": { "type": "company", "name": "Uber" },
-
     "dara-khosrowshahi": { "type": "person", "name": "Dara Khosrowshahi" },
     "dropbox": { "type": "company", "name": "Dropbox" },
     "drew-houston": { "type": "person", "name": "Drew Houston" },
@@ -67,7 +60,6 @@
     "larry-ellison": { "type": "person", "name": "Larry Ellison" },
     "snap": { "type": "company", "name": "Snap Inc." },
     "evan-spiegel": { "type": "person", "name": "Evan Spiegel" },
-
     "slack": { "type": "company", "name": "Slack" },
     "stewart-butterfield": { "type": "person", "name": "Stewart Butterfield" },
     "paul-graham": { "type": "person", "name": "Paul Graham" },
@@ -86,20 +78,15 @@
     "blackrock": { "type": "fund", "name": "BlackRock" },
     "pinterest": { "type": "company", "name": "Pinterest" },
     "ben-silbermann": { "type": "person", "name": "Ben Silbermann" },
-
     "ev-williams": { "type": "person", "name": "Evan Williams" },
     "medium": { "type": "company", "name": "Medium" },
-
     "x-corp": { "type": "company", "name": "X Corp." },
     "jack-dorsey": { "type": "person", "name": "Jack Dorsey" },
-
     "linda-yaccarino": { "type": "person", "name": "Linda Yaccarino" },
     "square": { "type": "company", "name": "Square" },
     "spotify": { "type": "company", "name": "Spotify" },
     "daniel-ek": { "type": "person", "name": "Daniel Ek" },
-
     "benchmark-capital": { "type": "fund", "name": "Benchmark Capital" },
-
     "khosla-ventures": { "type": "fund", "name": "Khosla Ventures" },
     "vinod-khosla": { "type": "person", "name": "Vinod Khosla" },
     "union-square-ventures": { "type": "fund", "name": "Union Square Ventures" },
@@ -113,7 +100,6 @@
     "tobias-lutke": { "type": "person", "name": "Tobias Lutke" },
     "shopify": { "type": "company", "name": "Shopify" },
     "kevin-systrom": { "type": "person", "name": "Kevin Systrom" },
-
     "instagram": { "type": "company", "name": "Instagram" },
     "brian-armstrong": { "type": "person", "name": "Brian Armstrong" },
     "coinbase": { "type": "company", "name": "Coinbase" },
@@ -122,7 +108,6 @@
     "david-baszucki": { "type": "person", "name": "David Baszucki" },
     "roblox": { "type": "company", "name": "Roblox" },
     "melanie-perkins": { "type": "person", "name": "Melanie Perkins" },
-
     "canva": { "type": "company", "name": "Canva" },
     "amd": { "type": "company", "name": "Advanced Micro Devices" },
     "salesforce": { "type": "company", "name": "Salesforce Inc." },
@@ -134,17 +119,13 @@
     "tiger-global-management": { "type": "fund", "name": "Tiger Global Management" },
     "steve-ballmer": { "type": "person", "name": "Steve Ballmer" },
     "lisa-su": { "type": "person", "name": "Lisa Su" },
-
     "arthur-levinson": { "type": "person", "name": "Arthur Levinson" },
-
     "andrea-jung": { "type": "person", "name": "Andrea Jung" },
     "james-bell": { "type": "person", "name": "James Bell" },
     "ronald-sugar": { "type": "person", "name": "Ronald Sugar" },
-
     "indra-nooyi": { "type": "person", "name": "Indra Nooyi" },
     "daniel-huttenlocher": { "type": "person", "name": "Daniel Huttenlocher" },
     "judith-mcgrath": { "type": "person", "name": "Judith McGrath" },
-
     "greg-abel": { "type": "person", "name": "Greg Abel" },
     "ajit-jain": { "type": "person", "name": "Ajit Jain" },
     "coca-cola": { "type": "company", "name": "Coca-Cola" },
@@ -180,7 +161,11 @@
     "jpmorgan-chase": { "type": "company", "name": "JPMorgan Chase" },
     "blackstone": { "type": "fund", "name": "Blackstone" },
     "tsmc": { "type": "company", "name": "Taiwan Semiconductor Manufacturing Company" },
-    "asml": { "type": "company", "name": "ASML Holding" }
+    "asml": { "type": "company", "name": "ASML Holding" },
+    "intel": { "type": "company", "name": "Intel Corporation" },
+    "catl": { "type": "company", "name": "Contemporary Amperex Technology" },
+    "lip-bu-tan": { "type": "person", "name": "Lip-Bu Tan" },
+    "robin-zeng": { "type": "person", "name": "Robin Zeng" }
   },
   "relationships": [
     { "from": "elon-musk", "to": "paypal", "type": "founder_of" },
@@ -220,13 +205,10 @@
     { "from": "accel-partners", "to": "stripe", "type": "invests_in" },
     { "from": "reed-hastings", "to": "netflix", "type": "founder_and_ceo_of" },
     { "from": "brian-chesky", "to": "airbnb", "type": "founder_and_ceo_of" },
-
-
     { "from": "dara-khosrowshahi", "to": "uber", "type": "ceo_of" },
     { "from": "drew-houston", "to": "dropbox", "type": "founder_and_ceo_of" },
     { "from": "larry-ellison", "to": "oracle", "type": "founder_and_ceo_of" },
     { "from": "evan-spiegel", "to": "snap", "type": "founder_and_ceo_of" },
-
     { "from": "stewart-butterfield", "to": "slack", "type": "founder_of" },
     { "from": "satya-nadella", "to": "microsoft", "type": "ceo_of" },
     { "from": "bill-gates", "to": "microsoft", "type": "founder_of" },
@@ -249,16 +231,12 @@
     { "from": "blackrock", "to": "tesla", "type": "invests_in" },
     { "from": "blackrock", "to": "oracle", "type": "invests_in" },
     { "from": "ben-silbermann", "to": "pinterest", "type": "founder_and_ceo_of" },
-
     { "from": "ev-williams", "to": "medium", "type": "founder_of" },
     { "from": "jack-dorsey", "to": "x-corp", "type": "founder_of" },
     { "from": "jack-dorsey", "to": "square", "type": "founder_and_ceo_of" },
-
     { "from": "ev-williams", "to": "x-corp", "type": "founder_of" },
-
     { "from": "linda-yaccarino", "to": "x-corp", "type": "ceo_of" },
     { "from": "daniel-ek", "to": "spotify", "type": "founder_and_ceo_of" },
-
     { "from": "benchmark-capital", "to": "uber", "type": "invests_in" },
     { "from": "benchmark-capital", "to": "snap", "type": "invests_in" },
     { "from": "union-square-ventures", "to": "x-corp", "type": "invests_in" },
@@ -270,12 +248,10 @@
     { "from": "tony-xu", "to": "doordash", "type": "founder_and_ceo_of" },
     { "from": "tobias-lutke", "to": "shopify", "type": "founder_and_ceo_of" },
     { "from": "kevin-systrom", "to": "instagram", "type": "founder_of" },
-
     { "from": "brian-armstrong", "to": "coinbase", "type": "founder_and_ceo_of" },
     { "from": "eric-yuan", "to": "zoom", "type": "founder_and_ceo_of" },
     { "from": "david-baszucki", "to": "roblox", "type": "founder_and_ceo_of" },
     { "from": "melanie-perkins", "to": "canva", "type": "founder_and_ceo_of" },
-
     { "from": "sequoia-capital", "to": "shopify", "type": "invests_in" },
     { "from": "greylock-partners", "to": "netflix", "type": "invests_in" },
     { "from": "softbank-vision-fund", "to": "slack", "type": "invests_in" },
@@ -283,38 +259,29 @@
     { "from": "reid-hoffman", "to": "openai", "type": "board_member_of" },
     { "from": "larry-ellison", "to": "x-corp", "type": "investor_in" },
     { "from": "mark-zuckerberg", "to": "meta", "type": "founder_of" },
-
     { "from": "dustin-moskovitz", "to": "meta", "type": "founder_of" },
-
-
     { "from": "meta", "to": "whatsapp", "type": "owns_equity_in" },
     { "from": "meta", "to": "instagram", "type": "owns_equity_in" },
     { "from": "vanguard-group", "to": "meta", "type": "invests_in" },
     { "from": "blackrock", "to": "meta", "type": "invests_in" },
-
-
-    { "from": "sergey-brin",      "to": "google",          "type": "founder_of" },
-    { "from": "sergey-brin",      "to": "alphabet",        "type": "founder_of" },
-    { "from": "larry-page",       "to": "google",          "type": "founder_of" },
-    { "from": "larry-page",       "to": "alphabet",        "type": "founder_of" },
-    { "from": "lisa-su",          "to": "amd",             "type": "ceo_of" },
-    { "from": "steve-ballmer",    "to": "microsoft",       "type": "ex_employee_of" },
-    { "from": "vinod-khosla",     "to": "khosla-ventures", "type": "founder_of" },
-    { "from": "khosla-ventures",  "to": "openai",          "type": "invests_in" },
-    { "from": "bill-gurley",      "to": "benchmark-capital", "type": "partner_of" },
-    { "from": "salesforce",       "to": "slack",           "type": "owns_equity_in" },
-    { "from": "fidelity-investments", "to": "nvidia",      "type": "invests_in" },
-    { "from": "vanguard-group",       "to": "nvidia",      "type": "invests_in" },
-    { "from": "tiger-global-management","to": "stripe",    "type": "invests_in" },
-    { "from": "chamath-palihapitiya", "to": "slack",       "type": "investor_in" },
-
-
+    { "from": "sergey-brin", "to": "google", "type": "founder_of" },
+    { "from": "sergey-brin", "to": "alphabet", "type": "founder_of" },
+    { "from": "larry-page", "to": "google", "type": "founder_of" },
+    { "from": "larry-page", "to": "alphabet", "type": "founder_of" },
+    { "from": "lisa-su", "to": "amd", "type": "ceo_of" },
+    { "from": "steve-ballmer", "to": "microsoft", "type": "ex_employee_of" },
+    { "from": "vinod-khosla", "to": "khosla-ventures", "type": "founder_of" },
+    { "from": "khosla-ventures", "to": "openai", "type": "invests_in" },
+    { "from": "bill-gurley", "to": "benchmark-capital", "type": "partner_of" },
+    { "from": "salesforce", "to": "slack", "type": "owns_equity_in" },
+    { "from": "fidelity-investments", "to": "nvidia", "type": "invests_in" },
+    { "from": "vanguard-group", "to": "nvidia", "type": "invests_in" },
+    { "from": "tiger-global-management", "to": "stripe", "type": "invests_in" },
+    { "from": "chamath-palihapitiya", "to": "slack", "type": "investor_in" },
     { "from": "apple", "to": "beats-electronics", "type": "owns_equity_in" },
     { "from": "apple", "to": "didi-chuxing", "type": "invests_in" },
-
     { "from": "amazon", "to": "rivian", "type": "invests_in" },
     { "from": "amazon", "to": "anthropic", "type": "invests_in" },
-
     { "from": "berkshire-hathaway", "to": "coca-cola", "type": "invests_in" },
     { "from": "berkshire-hathaway", "to": "bank-of-america", "type": "invests_in" },
     { "from": "berkshire-hathaway", "to": "american-express", "type": "invests_in" },
@@ -329,6 +296,11 @@
     { "from": "fidelity-investments", "to": "apple", "type": "invests_in" },
     { "from": "fidelity-investments", "to": "amazon", "type": "invests_in" },
     { "from": "state-street-global-advisors", "to": "apple", "type": "invests_in" },
-    { "from": "state-street-global-advisors", "to": "amazon", "type": "invests_in" }
+    { "from": "state-street-global-advisors", "to": "amazon", "type": "invests_in" },
+    { "from": "lip-bu-tan", "to": "intel", "type": "ceo_of" },
+    { "from": "cc-wei", "to": "tsmc", "type": "ceo_of" },
+    { "from": "christophe-fouquet", "to": "asml", "type": "ceo_of" },
+    { "from": "robin-zeng", "to": "catl", "type": "founder_and_ceo_of" },
+    { "from": "jun-young-hyun", "to": "samsung", "type": "ceo_of" }
   ]
 }
