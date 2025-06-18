@@ -226,7 +226,19 @@
     "coatue-management": { "type": "fund", "name": "Coatue Management", "country": "US" },
     "gili-raanan": { "type": "person", "name": "Gili Raanan", "country": "Israel" },
     "cyberstarts": { "type": "fund", "name": "Cyberstarts", "country": "Israel" },
-    "wiz": { "type": "company", "name": "Wiz", "country": "Israel" }
+    "wiz": { "type": "company", "name": "Wiz", "country": "Israel" },
+    "chad-hurley": { "type": "person", "name": "Chad Hurley", "country": "US" },
+    "nathan-blecharczyk": { "type": "person", "name": "Nathan Blecharczyk", "country": "US" },
+    "joe-gebbia": { "type": "person", "name": "Joe Gebbia", "country": "US" },
+    "jan-koum": { "type": "person", "name": "Jan Koum", "country": "US" },
+    "travis-kalanick": { "type": "person", "name": "Travis Kalanick", "country": "US"},
+    "ben-silbermann": { "type": "person", "name": "Ben Silbermann", "country": "US" },
+    "garrett-camp": { "type": "person", "name": "Garrett Camp", "country": "Canada" },
+    "bobby-murphy": { "type": "person", "name": "Bobby Murphy", "country": "US" },
+    "stephen-cohen": { "type": "person", "name": "Stephen Cohen", "country": "US" },
+    "arash-ferdowsi": { "type": "person", "name": "Arash Ferdowsi", "country": "US" },
+    "mike-krieger": { "type": "person", "name": "Mike Krieger", "country": "US" },
+    "martin-lorentzon": { "type": "person", "name": "Martin Lorentzon", "country": "Sweden" }
   },
   "relationships": [
     { "from": "elon-musk", "to": "paypal", "type": "founder_of" },
@@ -505,6 +517,18 @@
      { "from": "arvind-jain", "to": "glean", "type": "founder_and_ceo_of" },
      { "from": "sequoia-capital", "to": "perplexity", "type": "invests_in" },
      { "from": "kleiner-perkins", "to": "glean", "type": "invests_in" },
-     { "from": "sequoia-capital", "to": "glean", "type": "invests_in" }
+     { "from": "sequoia-capital", "to": "glean", "type": "invests_in" },
+     { "from": "chad-hurley", "to": "youtube", "type": "founder_of" },
+     { "from": "nathan-blecharczyk", "to": "airbnb", "type": "founder_of" },
+     { "from": "joe-gebbia", "to": "airbnb", "type": "founder_of" },
+     { "from": "jan-koum", "to": "whatsapp", "type": "founder_of" },
+     { "from": "travis-kalanick", "to": "uber", "type": "founder_of" },
+     { "from": "ben-silbermann", "to": "pinterest", "type": "founder_of" },
+     { "from": "garrett-camp", "to": "uber", "type": "founder_of" },
+     { "from": "bobby-murphy", "to": "snap", "type": "founder_of" },
+     { "from": "stephen-cohen", "to": "palantir", "type": "founder_of" },
+     { "from": "arash-ferdowsi", "to": "dropbox", "type": "founder_of" },
+     { "from": "mike-krieger", "to": "instagram", "type": "founder_of" },
+     { "from": "martin-lorentzon", "to": "spotify", "type": "founder_of" }
   ]
 }
